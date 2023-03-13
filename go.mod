@@ -7,11 +7,12 @@ require (
 	k8s.io/api v0.23.4
 	k8s.io/apimachinery v0.23.4
 	k8s.io/client-go v0.23.4
-	k8s.io/kubernetes v1.23.4
+	k8s.io/component-helpers v0.23.4
 	sigs.k8s.io/sig-storage-lib-external-provisioner/v6 v6.0.0
 )
 
 replace (
+	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
 	k8s.io/api => k8s.io/api v0.23.4
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.23.4
 	k8s.io/apimachinery => k8s.io/apimachinery v0.23.4
